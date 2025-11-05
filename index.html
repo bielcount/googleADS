@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Como funciona o Google Ads e o Google AdSense</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Entenda de forma simples como o Google Ads e o Google AdSense funcionam, suas diferenças e como empresas e criadores podem lucrar com anúncios online." />
+  <meta name="keywords" content="Google Ads, Google AdSense, publicidade online, anúncios, monetização, marketing digital" />
+  <meta name="author" content="Gabriel C Fernandes" />
+
+  <!-- Código global do Google AdSense (adicione seu código 'ca-pub-XXXXXX' aqui) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+    crossorigin="anonymous"></script>
+
+  <!-- Estilos -->
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    header, nav, main, aside, footer {
+      padding: 20px;
+      margin: 5px auto;
+      max-width: 1200px;
+      width: 95%;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    header { text-align: center; background-color: #f1f3f4; }
+    header h1 { margin-bottom: 10px; color: #1a73e8; }
+
+    nav {
+      background-color: #e8f0fe;
+      border-left: 4px solid #1a73e8;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1a73e8;
+      font-weight: 600;
+    }
+
+    main {
+      display: flex;
+      gap: 20px;
+      flex: 1;
+      flex-wrap: wrap;
+    }
+
+    article { flex: 3; min-width: 300px; }
+    aside {
+      flex: 1;
+      min-width: 250px;
+      background-color: #f9f9f9;
+      border-left: 3px solid #1a73e8;
+    }
+
+    section { margin-bottom: 25px; }
+
+    pre {
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    code {
+      color: #d63384;
+      font-family: monospace;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 100px;
+      object-fit: contain;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f1f3f4;
+      margin-top: auto;
+      border-top: 3px solid #1a73e8;
+    }
+
+    footer p { margin-top: 10px; font-size: 0.9rem; }
+
+    @media (max-width: 768px) {
+      main { flex-direction: column; }
+    }
+
+    .ads-demo {
+      border: 2px dashed #ff9800;
+      background-color: #fff8e1;
+      color: #ff9800;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .resumo {
+      background-color: #e3f2fd;
+      border-left: 4px solid #1a73e8;
+      padding: 15px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Como Funciona o Google Ads e o Google AdSense</h1>
+    <p>Aprenda a diferença entre anunciar e monetizar com as plataformas do Google</p>
+
+    <!-- Anúncio do topo -->
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-XXXXXXXXXXXX"
+      data-ad-slot="1111111111"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">O que é Google Ads</a></li>
+      <li><a href="#">O que é AdSense</a></li>
+      <li><a href="#">Monetização</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <section id="google-ads">
+        <h2>O que é o Google Ads?</h2>
+        <p>
+          O <strong>Google Ads</strong> é a plataforma de anúncios do Google voltada para <em>anunciantes</em>, ou seja, empresas e pessoas que querem promover seus produtos e serviços. 
+          Ela permite criar campanhas que aparecem nos resultados de busca, no YouTube, em aplicativos e em milhões de sites parceiros do Google.
+        </p>
+        <p>
+          Com o Ads, o anunciante paga quando alguém interage com o anúncio, normalmente pelo modelo <abbr title="Custo por Clique">CPC</abbr>. 
+          O foco é gerar tráfego, leads e vendas.
+        </p>
+      </section>
+
+      <section id="adsense">
+        <h2>O que é o Google AdSense?</h2>
+        <p>
+          Já o <strong>Google AdSense</strong> é voltado para <em>criadores de conteúdo</em>, como donos de blogs, portais e sites. 
+          Ele permite exibir anúncios do Google (criados no Ads) e ganhar dinheiro quando visitantes visualizam ou clicam nesses anúncios.
+        </p>
+        <p>
+          Em resumo, o Ads é para quem paga para anunciar; o AdSense é para quem ganha hospedando os anúncios.
+        </p>
+
+        <div class="gallery">
+          <img src="ads.svg" alt="Logo do Google Ads, símbolo em formato de V invertido nas cores azul, amarelo e verde.">
+          <img src="adsense.svg" alt="Logo do Google AdSense, símbolo nas cores amarelo e azul representando monetização.">
+        </div>
+      </section>
+
+      <!-- Anúncio no meio do conteúdo -->
+      <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-client="ca-pub-XXXXXXXXXXXX"
+        data-ad-slot="2222222222"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+
+      <section id="como-funciona">
+        <h2>Como as duas plataformas se conectam</h2>
+        <p>
+          O Google Ads e o Google AdSense fazem parte do mesmo ecossistema. 
+          Quando um anunciante cria uma campanha no Ads, os anúncios podem ser exibidos em sites parceiros que utilizam o AdSense. 
+          Dessa forma, o Google atua como intermediário entre o anunciante e o criador de conteúdo.
+        </p>
+        <p>
+          Esse modelo garante que o anunciante alcance seu público de forma segmentada e que o criador seja recompensado financeiramente pela exibição dos anúncios.
+        </p>
+      </section>
+
+      <!-- NOVA SEÇÃO: Funcionamento técnico do AdSense -->
+      <section id="papel-adsense">
+        <h2>🧩 1. O papel do Google AdSense no seu site</h2>
+        <p>Quando você cria uma conta no Google AdSense e insere um código de anúncio (gerado pelo próprio AdSense) dentro do seu site — por exemplo, nesses blocos que marcamos como <code>.ads</code> —, o Google passa a ter permissão para carregar anúncios automaticamente nesses espaços.</p>
+
+        <pre><code>&lt;!-- Exemplo de bloco real do Google AdSense --&gt;
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+     crossorigin="anonymous"&gt;&lt;/script&gt;
+
+&lt;ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-XXXXXXXXXXXX"
+     data-ad-slot="1234567890"
+     data-ad-format="auto"
+     data-full-width-responsive="true"&gt;&lt;/ins&gt;
+
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</code></pre>
+
+        <div class="resumo">
+          <p>📘 O que acontece:</p>
+          <ul>
+            <li>O código chama os servidores do Google Ads.</li>
+            <li>O Google identifica o conteúdo da página e o perfil do visitante.</li>
+            <li>Escolhe o anúncio mais relevante e rentável.</li>
+            <li>Preenche automaticamente o espaço reservado com o anúncio.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="leilao">
+        <h2>⚙️ 2. O mecanismo de leilão em tempo real (Real-Time Bidding)</h2>
+        <p>Quando a página é carregada, o Google faz um leilão instantâneo entre milhares de anunciantes que usam o Google Ads. Esse processo acontece em milissegundos e escolhe qual anúncio vai aparecer.</p>
+        <ul>
+          <li>💰 O lance do anunciante (quanto ele paga por clique ou mil impressões);</li>
+          <li>📈 A relevância e qualidade do anúncio;</li>
+          <li>🎯 O tema do site e o perfil do visitante.</li>
+        </ul>
+        <p>O vencedor do leilão tem o anúncio exibido, e o dono do site ganha uma parte da receita (geralmente 68%).</p>
+      </section>
+
+      <section id="adaptacao">
+        <h2>🪄 3. O AdSense adapta os anúncios ao layout do seu site</h2>
+        <p>O Google analisa o tamanho do bloco, o design responsivo, o idioma e a localização do visitante para entregar o formato ideal (texto, imagem, vídeo ou responsivo).</p>
+      </section>
+
+      <section id="correspondencia">
+        <h2>🧠 4. Correspondência entre Google Ads e AdSense</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+          <tr><th>Sistema</th><th>Função</th><th>Quem usa</th></tr>
+          <tr><td>Google Ads</td><td>Onde os anunciantes criam e pagam campanhas</td><td>Empresas e marcas</td></tr>
+          <tr><td>Google AdSense</td><td>Onde os sites exibem anúncios e recebem parte da receita</td><td>Criadores e publishers</td></tr>
+        </table>
+      </section>
+
+      <section id="pagamentos">
+        <h2>💰 5. Como o pagamento acontece</h2>
+        <p>O AdSense acumula ganhos por visualizações (CPM) e cliques (CPC). Quando o saldo atinge US$100, o Google envia o pagamento por transferência bancária.</p>
+      </section>
+
+      <section id="resumo-visual">
+        <h2>🧩 Resumo visual</h2>
+        <p>[Anunciante] → paga no Google Ads → [Google]</p>
+        <p>[Google seleciona o anúncio] → [Seu site com AdSense]</p>
+        <p>[Anúncio exibido ao visitante] → 💵 Você recebe parte da receita</p>
+      </section>
+
+      <section>
+        <h3>Dica de SEO e Monetização</h3>
+        <p>
+          Para aumentar seus ganhos com o AdSense, publique conteúdos originais e otimizados para SEO. 
+          Use títulos com palavras-chave relevantes e garanta uma boa experiência de navegação ao visitante. 
+          O Google prioriza sites rápidos, responsivos e com conteúdo de qualidade.
+        </p>
+      </section>
+    </article>
+
+    <aside>
+      <h3>Recursos úteis</h3>
+      <ul>
+        <li><a href="https://ads.google.com/intl/pt-BR/home/" rel="nofollow">Site oficial do Google Ads</a></li>
+        <li><a href="https://www.google.com/adsense/start/" rel="nofollow">Site oficial do Google AdSense</a></li>
+        <li><a href="#">Guia de SEO para iniciantes</a></li>
+        <li><a href="#">Como aumentar o CTR</a></li>
+      </ul>
+
+      <!-- Anúncio lateral -->
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXX"
+        data-ad-slot="3333333333"
+        data-ad-format="rectangle"
+        data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+
+      <section>
+        <h4>Postagens Recentes</h4>
+        <ul>
+          <li><a href="#">Como criar sua primeira campanha no Google Ads</a></li>
+          <li><a href="#">Melhores práticas para aprovar o AdSense</a></li>
+          <li><a href="#">Diferenças entre CPC e CPM</a></li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <!-- Anúncio no rodapé -->
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-XXXXXXXXXXXX"
+      data-ad-slot="4444444444"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <p>&copy; 2025 - Gabriel C Fernandes | Todos os direitos reservados.</p>
+    <p><small>Apresentação do trabalho da Prof Ùrsula</small></p>
+  </footer>
+</body>
+</html>
